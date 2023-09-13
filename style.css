@@ -1,0 +1,132 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(233, 229, 231);
+}
+
+.partecima {
+    background-color: rgb(237, 199, 28);
+    width: 100%;
+    height: 10px;
+}
+
+.logo{
+    height: 80px;
+    margin-left: 2%;
+   
+}
+
+.logoumfg{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.info{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.barra{
+    height: 60px;
+    width: 2px;
+    background-color: black;
+    display: block;
+    margin-left: 0.1% ;
+    display: flex;
+}
+
+.buscacep{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1%;
+    font-size:xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    margin-left: 2%;
+    background-color: rgb(209, 209, 209);
+    height: 35px;
+    width: 500px;
+    text-align: left;
+    font-size: large;
+    margin-bottom: 2%;
+}
+
+.submit{
+    margin-left: 1.5%;
+    height: 42px;
+    width: 300px;
+    font-size: large;
+}
+
+.barrahorizontal{
+    width: 90%;
+    margin-top: 1%;
+    margin-left: 2%;
+    height: 2px;
+    background-color: black;
+}
+
+.form{
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: large;
+}
+
+.forminput{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 227, 230);
+    border: none;
+    font-size: large;
+    display: inline-block;
+    width: 250px;
+    
+}
+
+.ncep {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+#box2{
+    display: none;
+}
+
+#box3{
+    display: none;
+}
+
+#box1{
+    display: none;
+}
+
+.partebaixo{
+    height: 100px;
+    width: 98.97%;
+    align-content: center;
+    align-items: center;
+    background-color: rgb(78, 78, 78);
+    margin-top: 25%;
+    padding: 10px;
+}
+
+.logobaixo{
+    height: 90px;
+    margin-left: 44%;
+}
+
+.fim{
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

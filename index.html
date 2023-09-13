@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <link rel="shortcurt icon" href="img/logo-amarela.png">
+    <title>UMFG | Busca CEP</title>
+</head>
+<body>
+<div>
+    <div class="partecima"></div>
+    <div class="logoumfg">
+        <img src="./img/3 [LOGO CINZA] UMFG Faculdade [128x60].png" class="logo">
+        <div class="barra"></div>
+        <div style="margin-left: 1%;"><a href="https://umfg.edu.br/home/" target="_blank" class="info">INFO</a></div>
+    </div>
+
+    <div class="buscacep">
+        <div class="barra"></div>
+        <p style="margin-left: 1%;"><b>BUSCA CEP</b></p>
+    </div>
+
+    <div>
+        <input type="text" placeholder="DIGITE SEU CEP" class="input" id="name" name="name">
+        <input type="submit" onclick="buscaCep()" class="submit" id="submit" value="Buscar">
+        <p id="errorMessage" style="margin-left: 20px; display: none; color: red;">Por favor, digite um CEP válido.</p>
+    </div>
+
+    <div class="barrahorizontal"></div>
+
+    <div class="buscacep">
+        <div class="barra"></div>
+        <p style="margin-left: 1%;"><b>Resultados Recentes (de busca)</b></p>
+    </div>
+    <div class="barrahorizontal"></div>
+    
+    <div id="box1">
+        <form action="" method="get" class="form">
+            <label>CEP: <input type="text" name="cep" id="cep" maxlength="9" class="forminput" readonly></label><br/>
+            <label>RUA: <input type="text" name="rua" id="rua" class="forminput" readonly></label><br/>
+            <label>CIDADE: <input name="cidade" id="cidade" class="forminput" readonly></label> UF: <input type="text" name="uf" id="uf" maxlength="2" class="forminput" readonly><br/>
+            <label>IBGE: <input type="text" name="ibge" id="ibge" class="forminput" readonly></label><br/>
+        </form>
+        <div class="barrahorizontal"></div>
+    </div>
+
+    <div id="box2">
+        <form action="" method="get" class="form">
+            <label>CEP: <input type="text" name="cep" id="cep2" maxlength="9" class="forminput" readonly></label><br/>
+            <label>RUA: <input type="text" name="rua" id="rua2" class="forminput" readonly></label><br/>
+            <label>CIDADE: <input name="cidade" id="cidade2" class="forminput" readonly></label> UF: <input type="text" name="uf" id="uf2" maxlength="2" class="forminput" readonly><br/>
+            <label>IBGE: <input type="text" name="ibge" id="ibge2" class="forminput" readonly></label><br/>
+        </form>
+        <div class="barrahorizontal"></div>
+    </div>
+
+    <div id="box3">
+        <form action="" method="get" class="form">
+            <label>CEP: <input type="text" name="cep" id="cep3" maxlength="9" class="forminput" readonly></label><br/>
+            <label>RUA: <input type="text" name="rua" id="rua3" class="forminput" readonly></label><br/>
+            <label>CIDADE: <input name="cidade" id="cidade3" class="forminput" readonly></label> UF: <input type="text" name="uf" id="uf3" maxlength="2" class="forminput" readonly><br/>
+            <label>IBGE: <input type="text" name="ibge" id="ibge3" class="forminput" readonly></label><br/>
+        </form>
+        <div class="barrahorizontal"></div>
+    </div>
+
+    <div>
+        <button id="limpar" style="margin-top: 1%; height: 30px; width: 200px; margin-left: 3%;">LIMPAR RESULTADOS</button>
+        <a href="https://buscacepinter.correios.com.br/app/endereco/index.php" target="_blank" style="margin-left: 43.5%;" class="ncep">Não sabe o cep: clique aqui</a>
+    </div>
+
+    <div class="partebaixo">
+        <img src="./img/logo-branca.png" class="logobaixo">
+    </div>
+
+    <div class="fim">
+        <h4 style="color: white;">© 2020-2023 UMFG. Todos os direitos reservados.</h4>
+    </div>
+</div>
+
+</body>
+</html>
